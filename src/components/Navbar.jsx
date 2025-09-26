@@ -21,9 +21,7 @@ export default function Navbar() {
             <Link to="/hospitals" className="hover:text-gray-200 transition">Hospitals</Link>
             <Link to="/assigned-hospitals" className="hover:text-gray-200 transition">Assigned Hospitals</Link>
             <Link to="/red-alerts" className="hover:text-gray-200 transition">Red Alerts</Link>
-            <a href="https://other-project.onrender.com" target="_blank" rel="noopener noreferrer" className="text-white">
-            Other Project
-          </a>
+           
           </div>
         {user && (
           <div className="flex items-center space-x-2">
