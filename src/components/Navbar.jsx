@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-blue-600 text-white shadow-md px-12 py-5 flex justify-between items-center">
+    <nav className="bg-blue-600 text-white shadow-md px-12 py-4 flex justify-between items-center">
       {/* <h1 className="font-bold text-xl">Health Dashboard</h1> */}
       <img src={pic} alt="" className="w-[80px] gap-4 rounded-full " />
       <div className="flex items-center space-x-6">
